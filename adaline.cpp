@@ -7,7 +7,7 @@
 #include <array>
 #include <iostream>
 
-#define O 2 //number of neurons
+#define O 1 //number of neurons
 #define M 2 //number of inputs
 #define N 4 //number of samples
 #define ALPHA 0.01 //Learning Rate
@@ -51,13 +51,13 @@ bias_type & init_bias() {
 sample_type & init_sample() {
     sample_type * samples = new sample_type();
     samples->at(0).first = {0, 0};
-    samples->at(0).second = {-1, 1};
+    samples->at(0).second = {-1};
     samples->at(1).first = {0, 1};
-    samples->at(1).second = {-1, -1};
+    samples->at(1).second = {-1};
     samples->at(2).first = {1, 0};
-    samples->at(2).second = {-1, -1};
+    samples->at(2).second = {-1};
     samples->at(3).first = {1, 1};
-    samples->at(3).second = {1, -1};
+    samples->at(3).second = {1};
     return *samples;
 }
 
@@ -113,8 +113,11 @@ int main() {
 
     cout << "Iterações: " << t << endl << "delta: " << delta << endl;
 
+    cout << endl;
+    cout << "Pesos e bias: ";
     print_wb(weight, bias);
 
+    cout << "Resultado das amostras: " << endl;
 
     for(int i = 0; i < N; i++) {
         for (int m = 0; m < M; m++) {

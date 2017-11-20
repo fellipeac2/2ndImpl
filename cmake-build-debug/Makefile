@@ -143,7 +143,6 @@ adaline.o: adaline.cpp.o
 # target to build an object file
 adaline.cpp.o:
 	$(MAKE) -f CMakeFiles/2ndImpl_adaline.dir/build.make CMakeFiles/2ndImpl_adaline.dir/adaline.cpp.o
-	$(MAKE) -f CMakeFiles/2ndImpl_perceptron.dir/build.make CMakeFiles/2ndImpl_perceptron.dir/adaline.cpp.o
 .PHONY : adaline.cpp.o
 
 adaline.i: adaline.cpp.i
@@ -153,7 +152,6 @@ adaline.i: adaline.cpp.i
 # target to preprocess a source file
 adaline.cpp.i:
 	$(MAKE) -f CMakeFiles/2ndImpl_adaline.dir/build.make CMakeFiles/2ndImpl_adaline.dir/adaline.cpp.i
-	$(MAKE) -f CMakeFiles/2ndImpl_perceptron.dir/build.make CMakeFiles/2ndImpl_perceptron.dir/adaline.cpp.i
 .PHONY : adaline.cpp.i
 
 adaline.s: adaline.cpp.s
@@ -163,7 +161,6 @@ adaline.s: adaline.cpp.s
 # target to generate assembly for a file
 adaline.cpp.s:
 	$(MAKE) -f CMakeFiles/2ndImpl_adaline.dir/build.make CMakeFiles/2ndImpl_adaline.dir/adaline.cpp.s
-	$(MAKE) -f CMakeFiles/2ndImpl_perceptron.dir/build.make CMakeFiles/2ndImpl_perceptron.dir/adaline.cpp.s
 .PHONY : adaline.cpp.s
 
 perceptron.o: perceptron.cpp.o

@@ -132,7 +132,6 @@
 		</Build>
 		<Unit filename="/home/fellipe/Projects/private/2ndImpl/adaline.cpp">
 			<Option target="2ndImpl_adaline"/>
-			<Option target="2ndImpl_perceptron"/>
 		</Unit>
 		<Unit filename="/home/fellipe/Projects/private/2ndImpl/perceptron.cpp">
 			<Option target="2ndImpl_perceptron"/>
