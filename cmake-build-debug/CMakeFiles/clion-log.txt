@@ -1,0 +1,4 @@
+/home/fellipe/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fellipe/Projects/private/2ndImpl
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fellipe/Projects/private/2ndImpl/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/2ndImpl_perceptron.dir/perceptron.cpp.o CMakeFiles/2ndImpl_perceptron.dir/adaline.cpp.o  -o 2ndImpl_perceptron 
